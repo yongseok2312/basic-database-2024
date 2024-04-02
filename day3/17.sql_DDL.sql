@@ -79,7 +79,7 @@ CREATE TABLE NewOrder(
 
 -- 2. 테이블 변경 또는 수정 ALTER
 CREATE TABLE MyBook (
-    bookid INT,
+    bookid INT NOT NULL,
     bookname VARCHAR(20),
     publisher VARCHAR(20),
     price INT,
