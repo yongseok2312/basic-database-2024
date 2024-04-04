@@ -260,6 +260,7 @@ IoT 개발자과정 SQLserver 학습 리포지토리
                 c. TCP/IP 사용으로 변경(TCP/IP 더블클릭 - TCP/IP 속성창)
                 d. TCP/IP속성창 - IP주소탭에서 IP2(본인아이피인것)랑 IP4(127.1.0.1으로 된 주소) 사용을 예로 변경
                 e. 적용 후 오른쪽 탭 SQL Server 서비스 > SQL Server(MSSQLServer) 더블클릭 - 다시시작 버튼 클릭, 재시작 필요 
+![image](https://github.com/yongseok2312/basic-database-2024/assets/135982451/db3d5fa3-93f5-449f-9fd5-7c4c99e9bf21)
 
 ## 6일차
 - 파이썬 SQL Server 연동 프로그램
@@ -274,7 +275,7 @@ IoT 개발자과정 SQLserver 학습 리포지토리
     - 실행화면
 
 
-https://github.com/yongseok2312/basic-database-2024/assets/135982451/c0178cb2-85d5-4eca-b2d3-a3ee1512cb4f
+https://github.com/yongseok2312/basic-database-2024/assets/135982451/04590bcf-f45e-4382-a403-e430f8b7ee41
 
 
 ## 7일차
