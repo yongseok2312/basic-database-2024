@@ -237,9 +237,38 @@ IoT 개발자과정 SQLserver 학습 리포지토리
     --삭제
     DROP INDEX 인덱스이름 ON 테이블명;
     ```
-
+    - SQL 서버의 인데스는 B-tree구조
+    a. 클러스터 인덱스
+    - 테이블 생성시 기본키(PK)를 생성하면 자동 생성
+    b. 비클러스터 인덱스
+    - SSMS에서 실행 계획을 가지고 쿼리 실행 성능을 체크할 수 있음
+        - SSMS - 마당테이블 - dbo.Book 오른쪽 클릭/ dbo.Mybook 각각 -모든행 선택 - 상단쿼리 - 예상실행계획표시 
 - 파이썬 SQL Server 연동 프로그래밍
-    - PyQT GUI 생성
-    - SQL Server 데이터 핸들링
+    - Madang DB 관리 프로그램
+        - PyQT GUI 생성 (파일명 MadangBook.ui)
+            - QT designer 진입 - Main window 선택 - 생성
+            - group box(책정보)/ table widget/ label(책번호, 책제목, 출판사, 정가)/ line Edit/ pushbutton(신규등록, 저장, 삭제, 조회)
+        - SQL Server 데이터 핸들링
+            - pymssql 라이브러리 설치
+            
+            '''sql
+            pip install pymssql
+            ```
+            - DB연결 설정
+                a. 윈도우 앱 - SQL server 2022 - 구성관리자 접속
+                b. sql서버 네트워크 구성-> MSSQL에 대한 프로토콜
+                c. TCP/IP 사용으로 변경(TCP/IP 더블클릭 - TCP/IP 속성창)
+                d. TCP/IP속성창 - IP주소탭에서 IP2(본인아이피인것)랑 IP4(127.1.0.1으로 된 주소) 사용을 예로 변경
+                e. 적용 후 오른쪽 탭 SQL Server 서비스 > SQL Server(MSSQLServer) 더블클릭 - 다시시작 버튼 클릭, 재시작 필요 
+
+## 6일차
+- 파이썬 SQL Server 연동 프로그램
+    - Madang DB 관리 프로그램
+        - PyQt5 + pymssql
+
+    - 문제점 - 한글 깨짐 문제
+        1. DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 변경
+        2. Python에서 pymssql로 접속할 때, charset을 'UTF8'로 설정
+        3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
 
 - 데이터베이스 모델링
