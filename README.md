@@ -311,7 +311,7 @@ https://github.com/yongseok2312/basic-database-2024/assets/135982451/04590bcf-f4
     - PK나 인덱스가 없는 상태에서 성능문제 체크
     - 인덱스가 설정되면 성능이 어떤지 비교
     - 더미 생성시 100만건으로 제약을 두고 시작
-    <img src = "https://raw.githubusercontent.com/yongseok2312/basic-database-2024/main/images/index.png" width = "900">
+    <img src = "https://raw.githubusercontent.com/yongseok2312/basic-database-2024/main/images/index.png" width = "800">
 
 ## 8일차
 - 인덱스 예제

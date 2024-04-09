@@ -56,7 +56,8 @@ SELECT LAST_NAME AS 'e and o NAME'
     사원번호, 고용일자 출력
     단, 입사일이 빠른순으로 정렬(18개행)
 */
-SELECT FIRST_NAME + ' ' + LAST_NAME AS [NAME]
+SELECT GETDATE() AS [now date]
+     , FIRST_NAME + ' ' + LAST_NAME AS [NAME]
      , EMPLOYEE_ID
      ,   HIRE_DATE
     FROM employees
