@@ -337,3 +337,26 @@ https://github.com/yongseok2312/basic-database-2024/assets/135982451/04590bcf-f4
             - 일반 : 기본 데이터베이스 - hr
             - 사용자 매핑 : hr 선택, 데이터베이스 역할 멤버 : db_owner 선택
     2. HR사용자 로그인(VS code)
+        - SELECT
+        - WHERE, ORDER BY
+        - FUNCTION
+        - AGGREAGATE FUNC
+        - JOIN
+        - SET ...
+
+## 9일차
+- 실무실습
+    - 쿼리실습
+        - 기본 SELECT, WHERE, ORDER BY
+        - 집계함수 GROUP BY, ROLLUP
+        - JOIN, SUBQUERY, UNION ...
+        - CASE WHEN THEN END...
+        - 내장함수...
+
+![HR_ERD](https://raw.githubusercontent.com/yongseok2312/basic-database-2024/main/images/db007.png)
+
+- 공부를 더할 부분
+    - 트랜잭션
+    - DB 보안 백업과 복원
+    - 모델링 + 정규화
+    - 데이터 모델링 실습
