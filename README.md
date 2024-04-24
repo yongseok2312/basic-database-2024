@@ -8,7 +8,7 @@ IoT 개발자과정 SQLserver 학습 리포지토리
         - SQL Server에 대한 Azure 확장 비활성
         - 데이터베이스 엔진 구성 (혼합모드로 선택!)
             - WINDOWS인증모드 : 외부에서 접근 불가 
-            - 혼합모드(sa) : sa에 대한 암호를 지정(8자이상, 대소문자구분, 특수문자 포함) / 현재 mssql_p@ss 으로 설정함
+            - 혼합모드(sa) : sa에 대한 암호를 지정(8자이상, 대소문자구분, 특수문자 포함) / 현재 DESKTOP-QO2E9L6/ mssql_p@ss 으로 설정함
             ![서버 연결](https://raw.githubusercontent.com/yongseok2312/basic-database-2024/main/images/db003.png)
             - 데이터루트 디렉토리는 변경
     ![개발툴 설치](https://raw.githubusercontent.com/yongseok2312/basic-database-2024/main/images/db001.png)
